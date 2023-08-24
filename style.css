@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+  
+    background-image: url(./Group\ 12.png);
+    background-position: center;
+}
+
+:root{
+    --color-primary: #330E0E;
+    --color-secundary:#4b1818 ; 
+    --color-with:#000000
+}
+#conteiner {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+
+
+}
+  
+
+.bloco2{
+    background-color: #320c0caf;
+    width: 40vw;
+    height:70% ;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    padding: 20px;
+    flex-direction: column;
+    align-content: stretch;
+    margin-top: 80px;
+    margin-left: 70px;
+    
+}
+#circulodeimagem{
+    display: flex;
+    justify-content: start;
+    margin-top: 15px;
+    width: 120px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+.desc{
+   font: size 22px;
+   color: #ffff;
+   text-align: center;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 600;
+   margin-top: 20px;
+}
+
+.icones{
+  display: flex;
+  margin-top: 380px;
+  margin-right: 70px;
+ 
+}
+.insta{
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
