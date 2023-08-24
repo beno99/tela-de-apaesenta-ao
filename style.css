@@ -7,9 +7,12 @@
 }
 
 body{
-  
-    background-image: url(./Group\ 12.png);
-    background-position: center;
+   
+  background-image: url(./imgs/Group\ 19.png);
+  background-size: cover;
+  background-position: center center;
+ 
+
 }
 
 :root{
@@ -20,8 +23,11 @@ body{
 #conteiner {
     width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 250px;
     height: 100vh;
+
+    
 
 
 }
@@ -30,7 +36,7 @@ body{
 .bloco2{
     background-color: #320c0caf;
     width: 40vw;
-    height:70% ;
+    height:60% ;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -38,7 +44,7 @@ body{
     padding: 20px;
     flex-direction: column;
     align-content: stretch;
-    margin-top: 80px;
+    margin-top: 150px;
     margin-left: 70px;
     
 }
@@ -54,14 +60,14 @@ body{
     align-items: center;
     margin-top:15px;
     color: white;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 800;
 }
 .desc{
-   font: size 22px;
+   font: size 40px;
    color: #ffff;
    text-align: center;
-   font-size: 15px;
+   font-size: 23px;
    font-style: normal;
    font-weight: 600;
    margin-top: 20px;
